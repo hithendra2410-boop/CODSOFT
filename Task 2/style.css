@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px;
+    margin: 40px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #667eea;
+    font-size: 2rem;
+}
+
+/* ABOUT */
+#about {
+    text-align: center;
+}
+
+#about img {
+    width: 160px;
+    border-radius: 50%;
+    border: 5px solid #667eea;
+    margin: 20px auto;
+    display: block;
+}
+
+/* SKILLS */
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#skills li {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #222;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+#skills li:hover {
+    transform: scale(1.05);
+}
+
+/* PROJECTS */
+.project {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.project h3 {
+    color: #764ba2;
+    margin-bottom: 10px;
+}
+
+/* RESUME */
+#resume {
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#resume a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* CONTACT */
+#contact {
+    text-align: center;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
